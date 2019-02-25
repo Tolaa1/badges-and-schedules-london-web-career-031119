@@ -16,4 +16,6 @@ def printer(speakers)
     puts badge
 end
 def printer(speakers)
-  assign_rooms.each 
+  assign_rooms(assignment).each do |assignment|
+    puts assignment
+  end
